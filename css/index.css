@@ -1,0 +1,229 @@
+body {
+  width: 100%;
+  background-color: rgb(245, 209, 166);
+  height: auto;
+  font-style: normal;
+  font-family: Comic Sans MS;
+  margin: 0px;
+}
+a :selected {
+  border-bottom: none;
+}
+a :visited {
+  border-bottom: none;
+}
+span.title-user {
+  font-size: large;
+  font-style: initial;
+  margin: 0 auto;
+}
+span.mark {
+  font-size: 20px;
+  color: rgb(153, 99, 139);
+  position: relative;
+  text-align: center;
+  margin: auto;
+}
+
+.inner {
+  font-size: normal;
+  font-style: normal;
+  width: 90%;
+  height: 90%;
+  margin: auto;
+}
+div.inline-body {
+  position: relative;
+
+  width: 800px;
+  height: 1200px;
+  background-color: #fff;
+  margin: auto;
+}
+#heading {
+  display: table-cell;
+  width: 800px;
+  height: auto;
+  background-color: floralwhite;
+}
+header {
+  display: block;
+  width: 100%;
+  height: 100px;
+  background-image: url(../images/leaf_maple_1.jpg);
+  background-repeat: repeat-x;
+}
+header span.header_1 {
+  display: inline-block;
+  text-align: center;
+  font-size: 24px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+}
+nav {
+  margin: auto;
+}
+#heading h1 {
+  font: normal;
+  display: inline-table;
+  color: lightsteelblue;
+  margin: auto;
+}
+#heading a {
+  font: normal;
+  display: inline-table;
+  color: lightsteelblue;
+  margin: 0 20px 0 20px;
+}
+#window1 {
+  background-color: #fff;
+  width: 800px;
+  height: 300px;
+  position: relative;
+  float: left;
+  margin: auto;
+}
+.inline-body-1 {
+  background-color: rgb(223, 209, 241);
+  width: 400px;
+  height: 300px;
+  position: relative;
+  float: left;
+  margin: auto;
+}
+
+#userpage {
+  background-color: rgb(225, 251, 255);
+  width: 400px;
+  height: 300px;
+  margin: auto;
+  position: relative;
+  float: left;
+}
+#userpage img {
+  display: table-cell;
+  padding-top: 20px;
+  widows: 50px;
+  height: 50px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+#calender {
+  position: relative;
+  float: left;
+  width: 800px;
+  height: 600px;
+  background-color: fff;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: thin solid #fff;
+  border-width: 1px 0px 0px 1px;
+
+  background-image: url(../images/ima-1_1.jpg);
+  margin: auto;
+  border-spacing: 0px;
+  caption-side: bottom;
+}
+.table-title {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  font-size: 24px;
+  color: darkslateblue;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin: 0 auto;
+}
+table tr {
+  /* background-color: #f1efe3; */
+  font-size: normal;
+  margin: auto;
+  text-align: center;
+}
+table td {
+  display: table-cell;
+  width: 10%;
+  height: 40px;
+  margin: 5px 5px 5px 5px;
+}
+table a {
+  margin: 20px auto;
+}
+table.website-following td {
+  background-color: rgb(255, 249, 245);
+  border-color: peachpuff 1px solid;
+  margin: 10px auto;
+}
+nav ul li {
+  list-style: none;
+  margin: 5% 0 0 0;
+}
+ul h3 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+div.inner img {
+  display: table-cell;
+  margin: auto;
+}
+.page-1,
+.page-2,
+.page-3 {
+  display: block;
+  position: relative;
+  float: left;
+  background-color: #fff;
+  width: 30%;
+  height: 60%;
+  margin-top: 20px;
+  margin-right: 20px;
+  text-align: center;
+  color: chocolate;
+}
+
+#website {
+  display: table-cell;
+  position: relative;
+  float: left;
+  width: 90%;
+  height: auto;
+  background-color: rgb(241, 241, 241);
+  margin: 25px 25px 25px 25px;
+  text-align: left;
+  padding: 5px 5px 5px 5px;
+}
+#website h4 {
+  text-align: center;
+}
+.notepage {
+  display: block;
+  position: -webkit-sticky;
+  background-color: blanchedalmond;
+  width: 100%;
+  height: 150px;
+  margin: 30px 0 0 0;
+}
+.notepage.inner {
+  position: relative;
+  float: left;
+}
+
+div#footer {
+  display: inline-block;
+  position: relative;
+  float: left;
+  text-align: center;
+}
+footer address {
+  font-size: 14px;
+  text-align: center;
+  position: relative;
+  margin: auto;
+}

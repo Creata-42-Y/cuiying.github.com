@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="css/notebook.css">
+    <title>笔记页面</title>
+</head>
+
+<body>
+    <article>
+        <header>
+            <div id="heading">
+                <nav>
+                    <h1>导航：</h1>
+                    <a href="index.html">个人首页</a>
+                    <a href="plan.html">计划表</a>
+                    <a href="notebook.html">笔记</a>
+                    <a href="page-1.html">手账</a>
+
+                </nav>
+            </div>
+        </header>
+
+        <div class="container_1">
+            <h1>Java注解</h1>
+            <p>
+                @Target<br></br>
+                表示该注解可以用于什么地方，可能的ElementType参数有：
+                CONSTRUCTOR：构造器的声明FIELD：域声明（包括enum实例）
+                LOCAL_VARIABLE：局部变量声明
+                METHOD：方法声明
+                PACKAGE：包声明
+                PARAMETER：参数声明
+                TYPE：类、接口（包括注解类型）或enum声明
+            </p>
+            <line></line>
+
+            <p>
+                @Override<br></br>
+                表示重写
+                1、可以当注释用,方便阅读；
+                2、编译器可以给你验证@Override下面的方法名是否是你父类中所有的，如果没有则报错。
+            </p>
+            <line></line>
+            <h1>applicationContext.xml文件配置</h1>
+            <p>
+                bean：配置需要创建的对象
+                id ：用于之后从spring容器获得实例时使用的 class ：需要创建实例的全限定类名<br></br>
+
+                @Test
+                public void demo02(){
+                //从spring容器获得
+                //1 获得容器<br></br>
+                String xmlPath = "com/itheima/a_ioc/beans.xml";<br></br>
+                ApplicationContext applicationContext = new ClassPathXmlApplicationContext(xmlPath);<br></br>
+                //2获得内容 --不需要自己new，都是从spring容器获得<br></br>
+                UserService userService = (UserService) applicationContext.getBean("userServiceId");<br></br>
+                userService.addUser(); <br></br>
+
+
+            </p>
+            <line></line>
+
+
+
+
+
+
+
+
+
+        </div>
+        <div class="container_2">
+            <h1>
+                Html表单
+            </h1>
+            <p>
+                form元素定义了表单，所有表单元素都嵌套在这个元素中。<br></br>
+                action属性：服务器脚本的url<br></br>
+                method属性：post/get<br></br>
+                input元素：文本控件、提交按钮等<br></br>
+
+            </p>
+            <line></line>
+            <h3>
+                input元素：void元素
+            </h3>
+            <p>
+
+                type=“text”，单行文本，value属性表示初始值<br></br>
+                type=“submit”，提交按钮，value属性表示按钮上显示的文本<br></br>
+                name属性，指定元素名，服务器脚本会利用该参数做后续处理<br></br>
+                type=“radio”，单选按钮，同一组的单选按钮name属性值相同<br></br>
+                type=“checkbox”，复选框，相关的复选框name属性值也相同<br></br>
+
+
+            </p>
+
+
+
+        </div>
+
+        <footer>
+
+        </footer>
+    </article>
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(243, 203, 203);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#heading {
+    display: table-cell;
+    width: 1200px;
+    height: auto;
+    background-color: floralwhite;
+    margin: auto;
+  }
+  nav {
+    margin: auto;
+  }
+  #heading h1 {
+    font: normal;
+    display: inline-table;
+    color: lightsteelblue;
+    margin: auto;
+  }
+  #heading a {
+    font: normal;
+    display: inline-table;
+    color: lightsteelblue;
+    margin: 0 20px 0 20px;
+  }
+  /* 导航部分参考首页css */
+
+
+
+#container{
+    display: inline-block;
+    width: 800px;
+    height:1200px;
+    background-image: url(../images/line-body.jpg);
+    background-repeat: no-repeat;
+    margin: auto;
+    border: ivory 10px solid;
+}
+#container div.inner-body{
+    display: inline-block;
+    width: 600px;
+    height:800px;
+    background-color: blanchedalmond;
+    position: relative;
+    margin: 50px auto;
+    margin-left: 200px;
+}
+img#glass{
+    position: relative;
+    float: right;
+}
+span{
+    margin: 10px auto;
+    text-align: center;
+    font-size: 20px;
+    display: block;
+}
+.notify{
+    display: block;
+    width:800px;
+    height:120px;
+    background-color: #fff;
+    font-size: large;
+    margin-top: 180px;
+}
+.abside, .abside img{
+    display: block;
+    position: relative;
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-top: 50px;
+}
+ button{
+  display:block;
+ 
+  margin: auto;
+}

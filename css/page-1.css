@@ -1,0 +1,82 @@
+body{
+    background-image: url(../images/bc_2.png);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+#heading {
+    display: table-cell;
+    width: 800px;
+    height: auto;
+    background-color: floralwhite;
+  }
+  nav {
+    margin: auto;
+  }
+  #heading h1 {
+    font: normal;
+    display: inline-table;
+    color: lightsteelblue;
+    margin: auto;
+  }
+  #heading a {
+    font: normal;
+    display: inline-table;
+    color: lightsteelblue;
+    margin: 0 20px 0 20px;
+  }
+  /* 导航部分参考首页css */
+
+  #topside-1{
+      width: 400px;
+      height: 600px;
+      background-color: #fff;
+      margin:20px;
+      border: mediumvioletred 15px solid;
+      position: relative;
+      float: left;
+  }
+  #topside-2{
+    width: 400px;
+    height: 600px;
+    background-color: #fff;
+    margin:20px;
+    border:rgb(222, 192, 236) 15px solid;
+    position: relative;
+    float: left;
+}
+  .photograph_sk{
+    position: relative;
+    float: left;
+    padding: 20px 20px 20px 20px;
+  }
+  .photograph_sk p{
+      position: relative;
+      float: left;
+      display: block;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      text-align: left;
+      margin: 10px auto;
+    }
+    img #emoj{
+      position: relative;
+      float: left;
+      display: block;
+      margin: 10px auto;
+      border: #fff 5px solid;
+    }
+    .winter{
+      position: relative;
+      float: left;
+      padding: 40px 40px 20px 40px;
+    }
+    .winter p,h1{
+      text-align: center;
+      font-size: 28px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    img #schoool{
+      position: relative;
+      float: left;
+      margin: auto;
+    }

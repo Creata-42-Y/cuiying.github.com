@@ -1,0 +1,55 @@
+body{
+    background-image: url(../images/bc1.jpg);
+}
+#heading {
+    display: table-cell;
+    width: 800px;
+    height: auto;
+    background-color: floralwhite;
+  }
+  nav {
+    margin: auto;
+  }
+  #heading h1 {
+    font: normal;
+    display: inline-table;
+    color: lightsteelblue;
+    margin: auto;
+  }
+  #heading a {
+    font: normal;
+    display: inline-table;
+    color: lightsteelblue;
+    margin: 0 20px 0 20px;
+  }
+  /* 导航部分参考首页css */
+
+  .container_1 {
+      display: inline-block;
+      position: relative;
+      float: left;
+      width: 500px;
+      height:800px;
+      background-color: #fff;
+      padding:10px;
+      margin: 10px auto;
+  }
+  line{
+      width: 500px;
+      height: 1px;
+      border-bottom: palegoldenrod 1px solid;
+      display: block;
+      margin: auto;
+  }
+  .container_2{
+    display: inline-block;
+    position: relative;
+    float: left;
+    width: 500px;
+    height:800px;
+    background-color: #fff;
+    margin-left: 50px;
+    margin-top: 10px;
+    padding:10px;
+      
+}
